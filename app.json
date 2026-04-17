@@ -1,0 +1,24 @@
+{
+  "name": "nexus-backend",
+  "description": "Nexus Platform Backend API",
+  "repository": "https://github.com/yourusername/nexus-platform",
+  "logo": "",
+  "keywords": ["node", "express", "api"],
+  "image": "heroku/nodejs",
+  "env": {
+    "NODE_ENV": {
+      "description": "Environment mode",
+      "value": "production"
+    },
+    "JWT_SECRET": {
+      "description": "Secret key for JWT tokens",
+      "generator": "secret"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}
