@@ -1,6 +1,6 @@
 # ⚡ NEXUS — Next-Generation Intelligence Platform
 
-> Full-stack browser platform: AI assistant + Learning academy + Social hub + Tools
+> Full-stack browser platform: AI assistant + Learning academy + Social hub + Ai Tools
 
 ## 🚀 Quick Start
 
